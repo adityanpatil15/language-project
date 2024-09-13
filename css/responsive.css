@@ -1,0 +1,165 @@
+/* 
+@media screen and (max-width:767px){
+   
+    
+} */
+
+/* --------------------------------------------------- */
+
+/* 
+@media screen and (max-width:767px){
+   
+    .banar-main {
+        flex-direction: column;
+    }
+   
+    .banar-inner h1 {
+        line-height: 49px;
+    }
+    
+    h1 {
+        font-family: 'Glacial Indifference';
+        font-size: 46px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        margin: 0px 0px 22px;
+    }
+
+    .banar-section {
+        background-color: #FEFFE8;
+        padding: 120px 0px 0px;
+    }
+
+    .banar-right-m{
+        flex-direction: column;
+    }
+
+    .banar-bottom-nav ul{
+        flex-direction: column;
+    }
+
+
+    .learning-app-bottom ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+   
+
+    .Benefits-main{
+        flex-direction: column;
+    }
+
+
+    .Help-you-bottom ul{
+        flex-direction: column;
+    }
+    
+
+    .app-deta {
+        flex-direction: column;
+    }
+} */
+
+/* ---------------------------------------------------------- */
+
+@media screen and (max-width:1024px){
+    
+
+}
+                                     /* // it can be used from the 769 to 991  */
+                                     /* make a page on the 769 */
+@media screen and (max-width:991px){
+     
+    .bottom-deta {
+        width: 243px;
+    }
+
+    .banar-inner h1 {
+        line-height: 40px;
+        font-size: 33px;
+    }
+    .banar-bottom-m ul{
+       flex-wrap:wrap;
+    }
+}
+                                         /* // tablet 768 only for toblet*/
+                                         /* make apage on the 768 */
+@media screen and (max-width:768px){
+    .bottom-deta {
+        width: 243px;
+    }
+
+    .banar-inner h1 {
+        line-height: 40px;
+        font-size: 33px;
+    }
+    .banar-bottom-m ul{
+       flex-wrap:wrap;
+    }
+}
+                                     /* // 767 t0 320px */
+                                     /* make a page on the 320 */
+
+@media screen and (max-width:767px)
+{
+    /* header */
+    .header-nav ul{
+        display: none;
+    }
+  
+    .nav-button ul{
+        display: block;
+    }
+    /* header -close  */
+
+    /* banar-section */
+
+    .banar-main {
+        flex-wrap:wrap;
+    }
+
+    .banar-inner{
+        width: 100%;
+    }
+
+    .banar-bottom-m ul{
+       flex-wrap:wrap;
+    }
+    /* banar-section */
+
+    /* learning-app-section */
+    .learning-app-bottom ul{ 
+       flex-wrap:wrap;
+    }
+
+    /* learning-app-section */
+
+    /* Benefits-section */
+    .Benefits-main{
+       flex-wrap:wrap;
+    }
+
+    .Benefits-inner{
+        width: 100%;
+    }
+      /* Benefits-section */
+
+    /* Help-you-section */
+    .Help-you-bottom ul{
+       flex-wrap:wrap;
+    }
+    /* Help-you-section */
+
+    /* App-feature-section */
+    .app-deta{
+       flex-wrap:wrap;
+    }
+    .app-info{
+        width: 100%;
+    }
+    .app-info-image{
+        margin: 0 auto;
+    }
+    /* App-feature-section */
+}
